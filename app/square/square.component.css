@@ -1,0 +1,12 @@
+
+.opacity {
+  opacity: 0;
+}
+.square {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}

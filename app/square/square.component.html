@@ -1,0 +1,2 @@
+<div *ngIf="cell.isOpen" [ngStyle]="{'background-image': cell.background, 'background-size': 'cover', 'background-position': 'center'}" [ngClass] = "{opacity: cell.pair}" class="square"></div>
+<div *ngIf="!cell.isOpen" [ngStyle]="{'background-image': 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2000px-LEGO_logo.svg.png)', 'background-size': 'cover', 'background-position': 'center'}" (click)="openColor()" class="square"></div>
