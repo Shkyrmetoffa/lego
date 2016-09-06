@@ -1,0 +1,4 @@
+<h1>Square game</h1>
+<div class="wrapper">
+  <square *ngFor="let item of list" (remove)="destroy($event.cell)" [cell]="item" ></square>
+</div>

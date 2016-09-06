@@ -1,0 +1,15 @@
+
+.wrapper{
+  margin: 0 auto;
+  width: 620px;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Arial;
+  font-size: 40px;
+}
+.opacity {
+  opacity: 0;
+}
